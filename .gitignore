@@ -1,0 +1,4 @@
+node_modules/
+dist/app.check.js
+test/*.png
+.DS_Store

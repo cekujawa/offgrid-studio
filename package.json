@@ -1,0 +1,16 @@
+{
+  "name": "offgrid-studio",
+  "version": "0.1.0",
+  "description": "A free-form dashboard builder with a formula bar.",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node test/formula.test.js",
+    "test:browser": "node build.js && node test/interact.js && node test/interact2.js && node test/dbtest.js",
+    "serve": "npx --yes serve docs"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "chart.js": "^4.4.1"
+  }
+}
